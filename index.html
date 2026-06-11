@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equilíbrio: Produção e Meio Ambiente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#conteudo-principal" class="link-acessibilidade">Ir para o conteúdo principal</a>
+
+    <header role="banner">
+        <h1>Produção Sustentável e Meio Ambiente</h1>
+        <p>Como a agricultura e a natureza caminham juntas para o futuro.</p>
+    </header>
+
+    <main id="conteudo-principal" role="main">
+        
+        <section class="texto-explicativo" aria-labelledby="titulo-texto">
+            <h2 id="titulo-texto">O que é o Equilíbrio na Agricultura?</h2>
+            <p>Produzir alimentos e cuidar da natureza ao mesmo tempo é possível e necessário. O equilíbrio entre a produção e o meio ambiente acontece quando o agricultor usa técnicas inteligentes para cuidar da terra, da água e das florestas, garantindo que o solo continue fértil por muitos anos.</p>
+            
+            <h3>Pontos Positivos da Agricultura Sustentável:</h3>
+            <ul>
+                <li><strong>Proteção da Água:</strong> Uso de irrigação gota a gota para não desperdiçar água.</li>
+                <li><strong>Solo Vivo:</strong> Plantio direto sobre a palha, que protege a terra do sol e da chuva.</li>
+                <li><strong>Menos Poluição:</strong> Uso de sistemas naturais e biológicos para proteger a plantação de soja contra pragas.</li>
+                <li><strong>Alimento Seguro:</strong> Produção de grãos saudáveis respeitando o tempo da natureza.</li>
+            </ul>
+        </section>
+
+        <section class="secao-grafico" aria-labelledby="titulo-grafico">
+            <h2 id="titulo-grafico">A Importância da Agricultura Sustentável</h2>
+            <div class="canvas-container">
+                <canvas id="graficoSustentabilidade" width="400" height="200" aria-label="Gráfico de barras mostrando os benefícios da agricultura sustentável" role="img"></canvas>
+            </div>
+            <div class="sr-only">
+                <p>O gráfico mostra que a agricultura sustentável aumenta a preservação da água em 80%, melhora a saúde do solo em 90% e reduz as emissões de gases poluentes em 70% comparado à agricultura comum.</p>
+            </div>
+        </section>
+
+        <section class="secao-faq" aria-labelledby="titulo-faq">
+            <h2 id="titulo-faq">Dúvidas Frequentes</h2>
+            
+            <div class="faq-item">
+                <button class="faq-pergunta" aria-expanded="false" onclick="toggleFaq(this)">
+                    Como a soja pode ajudar o meio ambiente?
+                </button>
+                <div class="faq-resposta" aria-hidden="true">
+                    <p>A soja planta tem a capacidade natural de colocar nutrientes importantes (como o nitrogênio) de volta no solo. Quando plantada da forma correta, ela ajuda a manter a terra rica e forte para os próximos plantios.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pergunta" aria-expanded="false" onclick="toggleFaq(this)">
+                    O que é o plantio direto na palha?
+                </button>
+                <div class="faq-resposta" aria-hidden="true">
+                    <p>É uma técnica onde o agricultor não mexe no solo fundo. Ele planta a semente por cima dos restos da plantação antiga. Isso cria uma "capa protetora" que segura a umidade da água e evita que o vento ou a chuva levem a terra embora.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 - Página Criada para Conscientização Ambiental e Acessibilidade.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
